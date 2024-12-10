@@ -7,9 +7,11 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        sans: ['Jost', 'sans-serif'], // Update 'sans' to use 'Jost'
+      },
+      lineHeight: {
+        '14': '56px', // Custom line height
       },
     },
   },
