@@ -13,21 +13,21 @@ export default function RootLayout({ children }) {
   const getBackgroundImage = () => {
     switch (pathname) {
       case "/about":
-        return "./images/land_patta.webp";
+        return "./images/landpatta.jpeg";
       case "/services":
-        return "/images/services-background.webp";
+        return "/images/landservices.jpg";
       case "/features":
-        return "/images/features-background.webp";
+        return "/images/land_features.jpeg";
       case "/pricing":
-        return "/images/pricing-background.webp";
+        return "/images/pricing.jpg";
       case "/testimonials":
-        return "/images/testimonials-background.webp";
+        return "/images/Testimonials.jpg";
       case "/faq":
-        return "/images/faq-background.webp";
+        return "/images/faq.jpg";
       case "/contact":
-        return "/images/contact-background.webp";
+        return "/images/contact.jpg";
       default:
-        return "./images/verifylandpatta.png"; // Default to home background
+        return "./images/dronesurvey.jpeg"; // Default to home background
     }
   };
 

@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from "next/link";
 import Image from 'next/image';
+import ScrollToTop from '../components/ScrollToTop';
 
 const Contact = () => {
     return (
@@ -143,7 +144,7 @@ const Contact = () => {
                     </div>
                 </div>
             </section>
-
+            <ScrollToTop />
         </div>
     )
 }
