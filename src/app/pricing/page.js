@@ -255,8 +255,7 @@ const Pricing = () => {
                 </div>
                 <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
             </section >
-            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-up"
-                data-aos-duration="3000">
+            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
                 <Contact />
             </section>
             {/* ---------------Contact  end--------------- */}

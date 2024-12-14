@@ -23,16 +23,15 @@ export default function Home() {
         </div>
       </div>
       <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-        <h1 className="text-4xl font-bold pb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Wellcome to TERRAA  Force</h1>
+        <h1 className="text-4xl font-bold pb-5" data-aos="fade-down">Wellcome to TERRAA  Force</h1>
         <p className="pb-5" data-aos="fade-down">We provide reliable land property monitoring services for landowners who are unable to visit or oversee their properties personally. Our team ensures detailed inspections, secure document verification, and regular updates through high-quality media and reports. With TerraForce, your land is always in safe hands!</p>
         <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
       </section>
       {/* ---------------Wellcome Note end--------------- */}
 
       {/* Services and Features */}
-      <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2 animate-fadeUp delay-100" data-aos="flip-right"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000">
+      <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2 animate-fadeUp delay-100"
+        data-aos="fade-down">
         <h1 className="text-4xl font-bold pb-5 relative left-5">Services</h1>
         <div className="flex justify-evenly items-center flex-wrap gap-5 text-balance">
           <Link
@@ -110,9 +109,8 @@ export default function Home() {
       {/* ---------------Services and Features  end--------------- */}
 
       {/* Frequently Asked Questions */}
-      <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2 animate-fadeUp delay-100" data-aos="fade-down"
-        data-aos-easing="linear"
-        data-aos-duration="1500" >
+      <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2 animate-fadeUp delay-100"
+        data-aos="fade-down">
         <h1 className="text-4xl font-bold pb-5 relative left-5">Frequently Asked Questions</h1>
         <div className="container text-left flex flex-col justify-center px-4 py-8 mx-auto md:p-8">
           <div className="space-y-4">
@@ -247,8 +245,7 @@ export default function Home() {
       {/* ---------------Testimonials  end--------------- */}
 
       {/* Contact us*/}
-      <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-up"
-        data-aos-duration="3000">
+      <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
         <Contact />
       </section>
       {/* ---------------Contact  end--------------- */}

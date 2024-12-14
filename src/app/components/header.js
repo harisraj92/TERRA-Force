@@ -13,9 +13,7 @@ const Header = ({ backgroundImage }) => {
           backgroundImage: `linear-gradient(67.5deg, rgba(0, 0, 0, 0.7) 40%, rgba(0, 0, 0, 0.4) 60%, rgba(0, 0, 0, 0.01) 80%),
          url(${backgroundImage})`,
         }}
-        data-aos="flip-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="2000"
+        data-aos="fade-down"
       >
         <div className="container flex items-center justify-around inset-0 bg-yellow-600 bg-opacity-50">
           {/* Logo */}

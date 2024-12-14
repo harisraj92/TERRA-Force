@@ -19,12 +19,12 @@ const About = () => {
             </section>
 
             <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-                <h1 className="text-4xl font-bold pb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Who We are</h1>
+                <h1 className="text-4xl font-bold pb-5" data-aos="fade-down">Who We are</h1>
                 <p className="pb-5" data-aos="fade-down">Empowering landowners with smarter solutions,Redefining excellence in land management and care.From monitoring to seamless oversight,Your trusted partner, always there</p>
 
 
                 <div className="flex flex-wrap justify-evenly items-center pb-8">
-                    <div className="w-96 h-96 border-2 p-10 rounded-full border-yellow-700-400 text-center flex flex-col justify-center items-center bg-yellow-200 shadow-lg" data-aos="zoom-out-up">
+                    <div className="w-96 h-96 border-2 p-10 rounded-full border-yellow-700-400 text-center flex flex-col justify-center items-center bg-yellow-200 shadow-lg" data-aos="fade-down">
                         {/* Icon/Image */}
                         <div className="mb-4">
                             <img
@@ -45,7 +45,7 @@ const About = () => {
                         </p>
                     </div>
 
-                    <div className="w-72 h-72 border-2 px-5 rounded-full border-yellow-700-400 text-center flex flex-col justify-center items-center bg-yellow-200 shadow-lg" data-aos="zoom-out-down">
+                    <div className="w-72 h-72 border-2 px-5 rounded-full border-yellow-700-400 text-center flex flex-col justify-center items-center bg-yellow-200 shadow-lg" data-aos="fade-down">
                         {/* Icon/Image */}
                         <div className="mb-4">
                             <img
@@ -63,9 +63,8 @@ const About = () => {
                             Leaving a mark of trust and innovation in land management
                         </p>
                     </div>
-                    <div className="w-72 h-72 border-2 px-5 rounded-full border-yellow-700-400 text-center flex flex-col justify-center items-center bg-yellow-200 shadow-lg" data-aos="flip-left"
-                        data-aos-easing="ease-out-cubic"
-                        data-aos-duration="2000">
+                    <div className="w-72 h-72 border-2 px-5 rounded-full border-yellow-700-400 text-center flex flex-col justify-center items-center bg-yellow-200 shadow-lg"
+                        data-aos="fade-down">
                         {/* Icon/Image */}
                         <div className="mb-4">
                             <img
@@ -91,9 +90,7 @@ const About = () => {
             <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" >
                 <h1 className="text-4xl font-bold pb-5 relative left-5">Testimonials</h1>
                 <div className="container flex flex-col items-center justify-center mx-auto lg:flex-row lg:flex-wrap lg:justify-evenly lg:px-10 ">
-                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg" data-aos="fade-right"
-                        data-aos-offset="100"
-                        data-aos-easing="ease-in-sine">
+                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg" data-aos="fade-down">
                         <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 strokeLinejoin bg-yellow-300">
                             <p className="relative px-6 py-1 text-lg italic text-center strokeLinejoin text-gray-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 strokeLinejoin text-violet-600">
@@ -115,7 +112,7 @@ const About = () => {
                             <p className="text-sm uppercase">CEO</p>
                         </div>
                     </div>
-                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg" data-aos="zoom-out-down">
+                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg" data-aos="fade-down">
                         <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 strokeLinejoin bg-yellow-300">
                             <p className="relative px-6 py-1 text-lg italic text-center strokeLinejoin text-gray-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 strokeLinejoin text-violet-600">
@@ -137,9 +134,7 @@ const About = () => {
                             <p className="text-sm uppercase">CEO</p>
                         </div>
                     </div>
-                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg" data-aos="fade-left"
-                        data-aos-offset="100"
-                        data-aos-easing="ease-in-sine">
+                    <div className="flex flex-col max-w-sm mx-4 my-6 shadow-lg" data-aos="fade-down">
                         <div className="px-4 py-12 rounded-t-lg sm:px-8 md:px-12 strokeLinejoin bg-yellow-300">
                             <p className="relative px-6 py-1 text-lg italic text-center strokeLinejoin text-gray-800">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="currentColor" className="w-8 h-8 strokeLinejoin text-violet-600">
@@ -175,8 +170,7 @@ const About = () => {
             </section >
             {/* ---------------Testimonials  end--------------- */}
             {/* Contact us*/}
-            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-up"
-                data-aos-duration="3000">
+            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
                 <Contact />
             </section>
             {/* ---------------Contact  end--------------- */}

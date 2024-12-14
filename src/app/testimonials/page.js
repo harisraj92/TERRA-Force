@@ -77,7 +77,7 @@ const Testimonials = () => {
                 </div>
             </section>
             <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-                <h1 className="text-4xl font-bold pb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Customers like yours Terraa Force to grow faster</h1>
+                <h1 className="text-4xl font-bold pb-5" data-aos="fade-down">Customers like yours Terraa Force to grow faster</h1>
                 <p className="pb-5" data-aos="fade-down">Empowering landowners with smarter solutions,Redefining excellence in land management and care.From monitoring to seamless oversight,Your trusted partner, always there</p>
 
                 <div className="container mx-auto px-4 py-8">
@@ -136,8 +136,7 @@ const Testimonials = () => {
                 <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
             </section >
             {/* Contact us*/}
-            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-up"
-                data-aos-duration="3000">
+            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
                 <Contact />
             </section>
             {/* ---------------Contact  end--------------- */}

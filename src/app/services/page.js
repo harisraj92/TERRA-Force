@@ -15,19 +15,17 @@ const services = () => {
                 </div>
             </section>
             <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-                <h1 className="text-4xl font-bold pb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">What We Do</h1>
+                <h1 className="text-4xl font-bold pb-5" data-aos="fade-down">What We Do</h1>
                 <p className="pb-5" data-aos="fade-down">Terraa Force to help landowners monitor and maintain their real estate properties remotely. The solution ensures accurate land details verification, digital documentation, and regular updates through an portal.</p>
                 <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
             </section >
             <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-                <h1 className="text-4xl font-bold pb-5" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Our Services at a Glance</h1>
+                <h1 className="text-4xl font-bold pb-5" data-aos="fade-down">Our Services at a Glance</h1>
 
                 <section>
-                    <h5 className="text-4xl font-bold pb-5 underline" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Primary Services</h5>
+                    <h5 className="text-4xl font-bold pb-5 underline" data-aos="fade-down">Primary Services</h5>
 
-                    <div className="container mx-auto px-4 py-12" data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500">
+                    <div className="container mx-auto px-4 py-12" data-aos="fade-down">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
                             <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
                                 <h3 className="text-sm text-gray-500">01.</h3>
@@ -270,8 +268,7 @@ const services = () => {
 
 
             {/* Contact us*/}
-            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-up"
-                data-aos-duration="3000">
+            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
                 <Contact />
             </section>
             {/* ---------------Contact  end--------------- */}
