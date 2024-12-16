@@ -10,25 +10,25 @@ const services = () => {
                 <div className='invisible lg:visible'>
                     <p className=" text-text-sm md:text-xl font-medium tracking-wide">Services</p>
                     <h1 className="text-1xl  md:text-5xl font-light mt-2 md:leading-14" >
-                        Terraa Force offers end-to-end <br /> land management services
+                        NILAM offers end-to-end <br /> land management services
                     </h1>
                 </div>
             </section>
-            <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-                <h1 className="text-4xl font-bold pb-5" data-aos="fade-down">What We Do</h1>
-                <p className="pb-5" data-aos="fade-down">Terraa Force to help landowners monitor and maintain their real estate properties remotely. The solution ensures accurate land details verification, digital documentation, and regular updates through an portal.</p>
-                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
+            <section className="relative text-center text-gray-700 my-5 px-10 pb-2 " >
+                <h1 className="text-4xl font-bold pb-5">What We Do</h1>
+                <p className="pb-5">NILAM to help landowners monitor and maintain their real estate properties remotely. The solution ensures accurate land details verification, digital documentation, and regular updates through an portal.</p>
+                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 "></div>
             </section >
-            <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-                <h1 className="text-4xl font-bold pb-5" data-aos="fade-down">Our Services at a Glance</h1>
+            <section className="relative text-center text-gray-700 my-5 px-10 pb-2 " >
+                <h1 className="text-4xl font-bold pb-5">Our Services at a Glance</h1>
 
                 <section>
-                    <h5 className="text-4xl font-bold pb-5 underline" data-aos="fade-down">Primary Services</h5>
+                    <h5 className="text-4xl font-bold pb-5 underline">Primary Services</h5>
 
-                    <div className="container mx-auto px-4 py-12" data-aos="fade-down">
+                    <div className="container mx-auto px-4 py-12">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">01.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">01.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Remote Property Monitoring
                                 </h2>
@@ -37,8 +37,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">02.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">02.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Document Verification Services
                                 </h2>
@@ -47,8 +47,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">03.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">03.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     On-Site Property Inspections
                                 </h2>
@@ -57,8 +57,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">04.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">04.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Multimedia Property Updates
                                 </h2>
@@ -66,8 +66,8 @@ const services = () => {
                                     Providing real-time updates through photos, videos, and live-streaming options, giving landowners a detailed view of their property remotely.
                                 </p>
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">05.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">05.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Scheduled Monitoring Plans
                                 </h2>
@@ -78,14 +78,12 @@ const services = () => {
                         </div>
                     </div>
 
-                    <h5 className="text-4xl font-bold pb-5 underline" data-aos="flip-left" data-aos-easing="ease-out-cubic" data-aos-duration="2000">Secondary Services</h5>
+                    <h5 className="text-4xl font-bold pb-5 underline" >Secondary Services</h5>
                     <p className='text-2xl'>Vacant Land Services</p>
-                    <div className="container mx-auto px-4 py-12" data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500">
+                    <div className="container mx-auto px-4 py-12">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">01.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">01.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Land patta
                                 </h2>
@@ -94,8 +92,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">02.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">02.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Land fencing and Compound wall
                                 </h2>
@@ -104,8 +102,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">03.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">03.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Trespassers' occupancy
                                 </h2>
@@ -114,8 +112,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">04.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">04.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Land Measurement
                                 </h2>
@@ -126,12 +124,10 @@ const services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="container mx-auto px-4 py-12" data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500">
+                    <div className="container mx-auto px-4 py-12">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">05.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">05.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Vacant land tax
                                 </h2>
@@ -140,8 +136,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">06.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">06.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Land regularisation approval
                                 </h2>
@@ -150,8 +146,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">07.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">07.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Building Plan Approval
                                 </h2>
@@ -160,8 +156,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">08.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">08.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Sub Division Approval
                                 </h2>
@@ -172,12 +168,10 @@ const services = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="container mx-auto px-4 py-12" data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500">
+                    <div className="container mx-auto px-4 py-12" >
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">09.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">09.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Temporary EB Service
                                 </h2>
@@ -187,8 +181,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">10.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">10.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Borewell (If Required)
                                 </h2>
@@ -197,8 +191,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">11.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">11.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Land survey
                                 </h2>
@@ -212,12 +206,10 @@ const services = () => {
                     </div>
 
                     <p className='text-2xl'>Building & Flat Services</p>
-                    <div className="container mx-auto px-4 py-12" data-aos="fade-down"
-                        data-aos-easing="linear"
-                        data-aos-duration="1500">
+                    <div className="container mx-auto px-4 py-12">
                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">01.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">01.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Property Tax
                                 </h2>
@@ -226,8 +218,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">02.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">02.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Water Tax
                                 </h2>
@@ -236,8 +228,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">03.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">03.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Maintenance work
                                 </h2>
@@ -246,8 +238,8 @@ const services = () => {
                                 </p>
 
                             </div>
-                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-500">
-                                <h3 className="text-sm text-gray-500">04.</h3>
+                            <div className="bg-white p-6 shadow-lg text-center border-t-4 border-yellow-700">
+                                <h3 className="text-sm text-gray-700">04.</h3>
                                 <h2 className="text-lg font-bold text-gray-900 mt-2">
                                     Document verification
                                 </h2>
@@ -262,13 +254,13 @@ const services = () => {
 
 
                 </section>
-                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
+                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 "></div>
             </section >
 
 
 
             {/* Contact us*/}
-            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
+            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2">
                 <Contact />
             </section>
             {/* ---------------Contact  end--------------- */}

@@ -54,11 +54,11 @@ const ContactUs = () => {
                 <div className='invisible lg:visible'>
                     <p className=" text-text-sm md:text-xl font-medium tracking-wide">Contact Us</p>
                     <h1 className="text-1xl  md:text-5xl font-light mt-2 md:leading-14" >
-                        Get in Touch with Terraa Force: <br /> We're Here to Help!
+                        Get in Touch with NILAM: <br /> We're Here to Help!
                     </h1>
                 </div>
             </section>
-            <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
+            <section className="relative text-center text-gray-700 my-5 px-10 pb-2 " >
                 <div className="container mx-auto px-4 py-8">
                     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 text-left">
                         {/* Contact Information Section */}
@@ -69,7 +69,7 @@ const ContactUs = () => {
                             </p>
                             <div className="mb-6">
                                 <h3 className="font-semibold">INDIA, Chennai</h3>
-                                <p className="text-yellow-600 font-semibold">Terraa Force</p>
+                                <p className="text-gray-700 font-semibold">NILAM</p>
                                 <div className="flex items-start mt-4">
                                     <span className="mr-4 text-xl">
                                         <Image
@@ -223,7 +223,7 @@ const ContactUs = () => {
                                         name="name"
                                         value={formData.name}
                                         onChange={handleChange}
-                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-1 focus:ring-yellow-500"
                                         placeholder="Your Name"
                                     />
                                 </div>
@@ -234,7 +234,7 @@ const ContactUs = () => {
                                         name="email"
                                         value={formData.email}
                                         onChange={handleChange}
-                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-1 focus:ring-yellow-500"
                                         placeholder="Your Email"
                                     />
                                 </div>
@@ -245,7 +245,7 @@ const ContactUs = () => {
                                         name="phone"
                                         value={formData.phone}
                                         onChange={handleChange}
-                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-1 focus:ring-yellow-500"
                                         placeholder="+91"
                                     />
                                 </div>
@@ -256,7 +256,7 @@ const ContactUs = () => {
                                         name="organization"
                                         value={formData.organization}
                                         onChange={handleChange}
-                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-1 focus:ring-yellow-500"
                                         placeholder="Your Organization"
                                     />
                                 </div>
@@ -269,7 +269,7 @@ const ContactUs = () => {
                                         name="source"
                                         value={formData.source}
                                         onChange={handleChange}
-                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-1 focus:ring-yellow-500"
                                         placeholder="Source"
                                     />
                                 </div>
@@ -279,14 +279,14 @@ const ContactUs = () => {
                                         name="message"
                                         value={formData.message}
                                         onChange={handleChange}
-                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                        className="w-full border border-gray-300 rounded-md p-2 focus:outline-none focus:ring-1 focus:ring-yellow-500"
                                         rows="4"
                                         placeholder="Write your message here..."
                                     ></textarea>
                                 </div>
                                 <button
                                     type="submit"
-                                    className="bg-blue-500 text-white rounded-md px-6 py-2 font-medium hover:bg-blue-600 focus:ring-2 focus:ring-blue-500"
+                                    className="bg-yellow-700 text-white rounded-md px-6 py-2 font-medium hover:bg-yellow-600 focus:ring-1 focus:ring-yellow-500"
                                 >
                                     Send Message
                                 </button>
@@ -295,10 +295,10 @@ const ContactUs = () => {
                         </div>
                     </div>
                 </div>
-                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
+                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 "></div>
             </section >
             {/* Contact us*/}
-            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
+            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2">
                 <Contact />
             </section>
             {/* ---------------Contact  end--------------- */}

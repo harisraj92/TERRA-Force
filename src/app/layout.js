@@ -13,11 +13,11 @@ export default function RootLayout({ children }) {
   const getBackgroundImage = () => {
     switch (pathname) {
       case "/about":
-        return "./images/landpatta.jpeg";
+        return "./images/verifylandpatta.jpg";
       case "/services":
         return "/images/landservices.jpg";
       case "/features":
-        return "/images/land_features.jpeg";
+        return "/images/surveylanddrone.jpeg";
       case "/pricing":
         return "/images/pricing.jpg";
       case "/testimonials":
@@ -25,9 +25,9 @@ export default function RootLayout({ children }) {
       case "/faq":
         return "/images/faq.jpg";
       case "/contact":
-        return "/images/contact.jpg";
+        return "/images/contact1.jpg";
       default:
-        return "./images/dronesurvey.jpeg"; // Default to home background
+        return "./images/drone.jpg"; // Default to home background
     }
   };
 
@@ -38,9 +38,9 @@ export default function RootLayout({ children }) {
       <head>
         <meta content="width=device-width, initial-scale=1.0" name="viewport" />
         <meta name="description" content="Digital Hub for land Information" />
-        <title>TERRAA Force</title>
+        <title>NILAM</title>
       </head>
-      <body>
+      <body className="bg-gray-50">
         <Header backgroundImage={backgroundImage} />
         <main>
           <AOSWrapper>{children}</AOSWrapper>

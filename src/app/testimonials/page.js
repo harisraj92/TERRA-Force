@@ -71,14 +71,14 @@ const Testimonials = () => {
                 <div className='invisible lg:visible'>
                     <p className=" text-text-sm md:text-xl font-medium tracking-wide">Testimonials</p>
                     <h1 className="text-1xl  md:text-5xl font-light mt-2 md:leading-14" >
-                        Case Studies from Terraa Force <br />
+                        Case Studies from NILAM <br />
                         Customers
                     </h1>
                 </div>
             </section>
-            <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-                <h1 className="text-4xl font-bold pb-5" data-aos="fade-down">Customers like yours Terraa Force to grow faster</h1>
-                <p className="pb-5" data-aos="fade-down">Empowering landowners with smarter solutions,Redefining excellence in land management and care.From monitoring to seamless oversight,Your trusted partner, always there</p>
+            <section className="relative text-center text-gray-700 my-5 px-10 pb-2 " >
+                <h1 className="text-4xl font-bold pb-5">Customers like yours NILAM to grow faster</h1>
+                <p className="pb-5">Empowering landowners with smarter solutions,Redefining excellence in land management and care.From monitoring to seamless oversight,Your trusted partner, always there</p>
 
                 <div className="container mx-auto px-4 py-8">
                     <div
@@ -133,10 +133,10 @@ const Testimonials = () => {
                     </div>
                 </div>
 
-                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
+                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 "></div>
             </section >
             {/* Contact us*/}
-            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
+            <section className="relative   text-center text-gray-700 my-5 px-10 pb-2">
                 <Contact />
             </section>
             {/* ---------------Contact  end--------------- */}

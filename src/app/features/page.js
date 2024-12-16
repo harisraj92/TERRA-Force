@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Pricing from "../pricingDetails/pricingDetails";
 import Contact from "../homecontact/homecontact";
 
 
@@ -95,24 +96,30 @@ const Features = () => {
                     </h1>
                 </div>
             </section>
-            <section className="relative text-center text-yellow-700 my-5 px-10 pb-2 " >
-                <div className=" bg-gray-100 p-8">
-                    <div className="flex flex-wrap gap-4 mb-8">
-                        {Object.keys(sections).map((key) => (
-                            <button
-                                key={key}
-                                onClick={() => setActiveSection(key)}
-                                className={`px-4 py-2 rounded-lg ${activeSection === key ? "bg-gray-400 font-semibold" : "bg-gray-200 hover:bg-gray-300"
-                                    }`}
-                            >
-                                {key}
-                            </button>
-                        ))}
-                    </div>
+            <section className="relative text-center text-gray-700 my-5 px-10 pb-2 " >
+                <div className=" bg-gray-100 p-8 rounded-3xl">
+
 
                     {/* Content Section */}
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         {/* Left Column */}
+                        <div className=" rounded-lg flex items-baseline justify-evenly">
+                            <div className="flex flex-wrap gap-2">
+                                {Object.keys(sections).map((key) => (
+                                    <button
+                                        key={key}
+                                        onClick={() => setActiveSection(key)}
+                                        className={`px-4 py-2 rounded-3xl ${activeSection === key ? "bg-gray-400 font-semibold" : "bg-gray-200 hover:bg-gray-300"
+                                            }`}
+                                    >
+                                        {key}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+
+
+                        {/* Right Column */}
                         <div className="bg-white rounded-lg shadow-lg p-6">
                             <h2 className="text-lg font-bold mb-4 text-left">{activeSection}</h2>
                             <div className="space-y-4">
@@ -124,22 +131,19 @@ const Features = () => {
                                 ))}
                             </div>
                         </div>
-
-                        {/* Right Column */}
-                        <div className="bg-gray-200 rounded-lg flex items-center justify-center">
-                            <img
-                                src={sections[activeSection].image}
-                                alt={activeSection}
-                                className="w-3/4 h-3/4 object-contain rounded-md"
-                            />
-                        </div>
                     </div>
                 </div>
 
-                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 " data-aos="fade-down"></div>
+
             </section >
+
+
+            <section className="relative text-center text-gray-700 my-5 px-10 pb-2">
+                <Pricing />
+                <div className="w-[100%] border-b-2 border-yellow-700 mx-auto  pb-2 "></div>
+            </section>
             {/* Contact us*/}
-            <section className="relative   text-center text-yellow-700 my-5 px-10 pb-2" data-aos="fade-down">
+            <section className="relative   text-center text-gray-700 mt-5 px-10 pb-2">
                 <Contact />
             </section>
             {/* ---------------Contact  end--------------- */}

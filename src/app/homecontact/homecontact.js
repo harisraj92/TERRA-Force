@@ -6,11 +6,11 @@ import ScrollToTop from '../components/ScrollToTop';
 const Contact = () => {
     return (
         <div>
-            <section className="relative text-center text-yellow-700 my-5 px-5 pb-2">
-                <h1 className="text-4xl font-bold pb-5">Contact Us</h1>
+            <section className="relative text-center text-gray-700 my-5 px-5 pb-2">
+                <h1 className="text-4xl font-bold py-5 ">Contact Us</h1>
                 <div className="flex flex-wrap justify-around">
                     <address className="pb-5 text-left text-gray-600 not-italic">
-                        <p className="font-bold pb-2">Terraa Force</p>
+                        <p className="font-bold pb-2">NILAM</p>
                         <p>1234 West Street,</p>
                         <p>Chennai 600028,</p>
                         <p>Tamil Nadu</p>
@@ -24,11 +24,65 @@ const Contact = () => {
                         </div>
                         <p className="font-bold">
                             Email:{" "}
-                            <Link href="mailto:johndoe@example.com" className="font-light">
-                                hr@terraaforce.com
+                            <Link href="mailto:hr@nilam.com" className="font-light">
+                                hr@nilam.com
                             </Link>
                         </p>
                     </address>
+                    <section className="pb-5 text-left text-gray-600 not-italic">
+                        <p className="font-bold pb-2">Primary Services</p>
+                        <p className="font-normal pb-2">
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>
+                                Remote Property Monitoring
+                            </Link>
+                        </p>
+
+                        <p className="font-normal pb-2">
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Document Verification Services</Link>
+                        </p>
+
+                        <p className="font-normal pb-2">
+
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> On-Site Property Inspections</Link>
+
+                        </p>
+                        <p className="font-normal pb-2">
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Multimedia Property Updates </Link>
+
+                        </p>
+                        <p className="font-normal pb-2">
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Scheduled Monitoring Plans </Link>
+                        </p>
+
+
+                    </section>
+                    <section className="pb-5  text-gray-600 not-italic">
+                        <p className="font-bold pb-2">Secondary Services</p>
+                        <p className="font-normal pb-2">
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>
+                                Temporary EB Service
+                            </Link>
+                        </p>
+
+                        <p className="font-normal pb-2">
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Borewell (If Required)</Link>
+                        </p>
+
+                        <p className="font-normal pb-2 text-left">
+
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Land survey</Link>
+
+                        </p>
+                        <p className="font-normal pb-2 text-left">
+                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Land Patta</Link>
+
+                        </p>
+                        <p className="font-normal pb-2 text-right">
+                            <Link href="#" className='inline-block  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Find More ...</Link>
+                        </p>
+
+
+                    </section>
                     <div>
                         <p className="pb-5 font-bold">Social Media</p>
                         <ul className="grid grid-cols-3 gap-4 md:grid-cols-3 md:gap-6">

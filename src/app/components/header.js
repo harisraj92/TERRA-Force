@@ -18,15 +18,15 @@ const Header = ({ backgroundImage }) => {
         <div className="container flex items-center justify-around inset-0 bg-yellow-600 bg-opacity-50">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold">
-            TERRAA Force
+            NILAM
           </Link>
 
           {/* Desktop Menu (Visible on larger screens) */}
-          <nav className="hidden lg:flex gap-1 list-none p-3 m-3">
+          <nav className="hidden lg:flex gap-6 list-none p-3 m-3">
             <li>
               <Link
                 href="/"
-                className="hover:border-2 p-4 rounded-md hover:border-yellow-400 transition duration-300"
+                className="uppercase  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"
               >
                 Home
               </Link>
@@ -34,7 +34,7 @@ const Header = ({ backgroundImage }) => {
             <li>
               <Link
                 href="/about"
-                className="hover:border-2 p-4 rounded-md hover:border-yellow-400 transition duration-300"
+                className="uppercase  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"
               >
                 About Us
               </Link>
@@ -42,7 +42,7 @@ const Header = ({ backgroundImage }) => {
             <li>
               <Link
                 href="/services"
-                className="hover:border-2 p-4 rounded-md hover:border-yellow-400 transition duration-300"
+                className="uppercase  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"
               >
                 Services
               </Link>
@@ -50,7 +50,7 @@ const Header = ({ backgroundImage }) => {
             <li>
               <Link
                 href="/features"
-                className="hover:border-2 p-4 rounded-md hover:border-yellow-400 transition duration-300"
+                className="uppercase  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"
               >
                 Features
               </Link>
@@ -58,7 +58,7 @@ const Header = ({ backgroundImage }) => {
             <li>
               <Link
                 href="/pricing"
-                className="hover:border-2 p-4 rounded-md hover:border-yellow-400 transition duration-300"
+                className="uppercase  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"
               >
                 Pricing
               </Link>
@@ -66,7 +66,7 @@ const Header = ({ backgroundImage }) => {
             <li>
               <Link
                 href="/testimonials"
-                className="hover:border-2 p-4 rounded-md hover:border-yellow-400 transition duration-300"
+                className="uppercase  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"
               >
                 Testimonials
               </Link>
@@ -74,7 +74,7 @@ const Header = ({ backgroundImage }) => {
             <li>
               <Link
                 href="/faq"
-                className="hover:border-2 p-4 rounded-md hover:border-yellow-400 transition duration-300"
+                className="uppercase  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"
               >
                 FAQ
               </Link>
@@ -82,7 +82,7 @@ const Header = ({ backgroundImage }) => {
             <li>
               <Link
                 href="/contact"
-                className="hover:border-2 p-4 rounded-md hover:border-yellow-400 transition duration-300"
+                className="uppercase  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-gray-200 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100"
               >
                 Contact Us
               </Link>
