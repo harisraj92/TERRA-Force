@@ -47,7 +47,7 @@ export default function Home() {
                 >
                   Revolutionizing Property Management
                 </a>
-                <p>Our mission at Terraa Force is to provide landowners with a reliable, transparent, and efficient way to manage their properties remotely.</p>
+                <p>Our mission at NILAM is to provide landowners with a reliable, transparent, and efficient way to manage their properties remotely.</p>
                 <span className="text-sm text-gray-500 dark:text-gray-300">
                   On: 20 October 2024
                 </span>

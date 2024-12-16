@@ -106,7 +106,7 @@ const ContactUs = () => {
                                             alt="Email"
                                             className="w-7 h-7 bg-center bg-cover rounded-full"
                                         /></span>
-                                    <p>johndoe@TerraaForce.com</p>
+                                    <p>hr@nilam.com</p>
                                 </div>
                             </div>
                             <div className="mb-6">
