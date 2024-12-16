@@ -16,10 +16,3 @@
 .top-88 {
   top: 320px;
 }
-
-.parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}

@@ -43,7 +43,7 @@ export default function Home() {
               <div className="flex flex-col justify-between py-6 lg:mx-6">
                 <a
                   href="#"
-                  className="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+                  className="text-xl font-semibold text-gray-800 hover:underline "
                 >
                   Revolutionizing Property Management
                 </a>
@@ -62,7 +62,7 @@ export default function Home() {
               <div className="flex flex-col justify-between py-6 lg:mx-6">
                 <a
                   href="#"
-                  className="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+                  className="text-xl font-semibold text-gray-800 hover:underline "
                 >
                   Multimedia Updates
                 </a>
@@ -81,7 +81,7 @@ export default function Home() {
               <div className="flex flex-col justify-between py-6 lg:mx-6">
                 <a
                   href="#"
-                  className="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+                  className="text-xl font-semibold text-gray-800 hover:underline "
                 >
                   Physical Property Inspection
                 </a>
@@ -100,7 +100,7 @@ export default function Home() {
               <div className="flex flex-col justify-between py-6 lg:mx-6">
                 <a
                   href="#"
-                  className="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+                  className="text-xl font-semibold text-gray-800 hover:underline "
                 >
                   Never Lose Sight of Your Land
                 </a>
@@ -119,7 +119,7 @@ export default function Home() {
               <div className="flex flex-col justify-between py-6 lg:mx-6">
                 <a
                   href="#"
-                  className="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+                  className="text-xl font-semibold text-gray-800 hover:underline "
                 >
                   Secure, Verify, Update
                 </a>
@@ -138,7 +138,7 @@ export default function Home() {
               <div className="flex flex-col justify-between py-6 lg:mx-6">
                 <a
                   href="#"
-                  className="text-xl font-semibold text-gray-800 hover:underline dark:text-white"
+                  className="text-xl font-semibold text-gray-800 hover:underline "
                 >
                   Remote Property Monitoring
                 </a>
@@ -156,14 +156,14 @@ export default function Home() {
         <div
           className="absolute inset-0 bg-cover bg-fixed bg-center"
           style={{
-            backgroundImage: `url('./images/landservices.jpg')`, // Replace with your image path
+            backgroundImage: `url('./images/landservices.jpg')`,
           }}
         ></div>
 
         {/* Content Container */}
         <div className="relative z-10 bg-white bg-opacity-90 max-w-5xl mx-auto p-6 md:p-12 rounded-lg shadow-lg">
           <h2 className="text-center text-2xl md:text-3xl font-bold mb-4 text-yellow-700">
-            Why Choose Terraa Force?
+            Why Choose NILAM ?
           </h2>
           <ul className="space-y-4">
             <li>

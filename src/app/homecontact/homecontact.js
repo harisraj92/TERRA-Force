@@ -32,26 +32,26 @@ const Contact = () => {
                     <section className="pb-5 text-left text-gray-600 not-italic">
                         <p className="font-bold pb-2">Primary Services</p>
                         <p className="font-normal pb-2">
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>
                                 Remote Property Monitoring
                             </Link>
                         </p>
 
                         <p className="font-normal pb-2">
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Document Verification Services</Link>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Document Verification Services</Link>
                         </p>
 
                         <p className="font-normal pb-2">
 
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> On-Site Property Inspections</Link>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> On-Site Property Inspections</Link>
 
                         </p>
                         <p className="font-normal pb-2">
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Multimedia Property Updates </Link>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Multimedia Property Updates </Link>
 
                         </p>
                         <p className="font-normal pb-2">
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Scheduled Monitoring Plans </Link>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Scheduled Monitoring Plans </Link>
                         </p>
 
 
@@ -59,26 +59,26 @@ const Contact = () => {
                     <section className="pb-5  text-gray-600 not-italic">
                         <p className="font-bold pb-2">Secondary Services</p>
                         <p className="font-normal pb-2">
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>
                                 Temporary EB Service
                             </Link>
                         </p>
 
                         <p className="font-normal pb-2">
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Borewell (If Required)</Link>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Borewell (If Required)</Link>
                         </p>
 
                         <p className="font-normal pb-2 text-left">
 
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Land survey</Link>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Land survey</Link>
 
                         </p>
                         <p className="font-normal pb-2 text-left">
-                            <Link href="#" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Land Patta</Link>
+                            <Link href="/services" className='inline-block after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'> Land Patta</Link>
 
                         </p>
                         <p className="font-normal pb-2 text-right">
-                            <Link href="#" className='inline-block  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Find More ...</Link>
+                            <Link href="/services" className='inline-block  after:duration-1000 ease-out after:block after:h-1 after:w-full after:origin-bottom-right after:scale-x-0 after:bg-yellow-700 after:transition-transform after:hover:origin-bottom-left after:hover:scale-x-100'>Find More ...</Link>
                         </p>
 
 
